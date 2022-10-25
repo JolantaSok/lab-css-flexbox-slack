@@ -1,5 +1,341 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #540b51;
+  padding: 20px;
+}
+
+.logo {
+  position: relative;
+  float: left;
+  max-width: 160px;
+  height: 40px;
+  margin: 30px;
+}
+
+.signButtons {
+  float: right;
+}
+
+.navBut {
+  position: relative;
+  float: right;
+  background-color: #540b51;
+  border: none;
+  color: white;
+  padding-right: 20px;
+  padding-top: 30px;
+  height: 80px;
+  width: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .listA {
+    display: none;
+  }
+}
+
+.myHeader {
+  background-color: #540b51;
+  color: white;
+  align-items: center;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 58px;
+  padding-top: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0px;
+}
+
+p {
+  font-size: 28px;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.buttonOne {
+  display: block;
+  background-color: white;
+  font-size: 44px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-variant-caps: all-petite-caps;
+  color: #540b51;
+  height: 80px;
+  width: 700px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.buttonTwo {
+  display: block;
+  background-color: #4285f4;
+  font-size: 44px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-variant-caps: all-petite-caps;
+  color: white;
+  height: 80px;
+  width: 700px;
+  border-radius: 6px;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+  margin: 0;
+}
+
+.buttonItem1 {
+  float: left;
+  padding: 10px;
+}
+
+.buttonItem2 {
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.mainBig {
+  background-color: #f3eae2;
+}
+
+.mainAll {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f3eae2;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 80px;
+}
+
+.image1 {
+  width: 200px;
+}
+
+.image2 {
+  width: 100px;
+}
+
+.image3 {
+  width: 100px;
+}
+
+.image4 {
+  width: 80px;
+}
+
+.image5 {
+  width: 320px;
+}
+
+.image6 {
+  width: 260px;
+}
+
+.par {
+  text-align: center;
+}
+
+.imageConnect,
+.imgflex,
+.imgSpeed {
+  width: 680px;
+}
+
+h2 {
+  font-size: 54px;
+  padding-left: 10px;
+}
+
+.h2text {
+  text-align: left;
+  text-orientation: sideways;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 34px;
+  padding-left: 10px;
+}
+
+.marginText {
+  margin: 0px;
+  padding: 60px 0px;
+}
+
+a {
+  color: #2e71a6;
+  text-decoration: none;
+  font-size: 34px;
+  padding: 40px 20px;
+}
+
+.imgflex {
+padding-top: 90px;
+}
+
+h3 {
+  font-size: 66px;
+  text-align: center;
+}
+
+.flexButton {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.termButton1 {
+  background-color: #540b51;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 80px;
+  width: 700px;
+  border-radius: 6px;
+}
+
+.termButton2 {
+  background-color: white;
+  border: none;
+  color: #540b51;
+  border: solid 2px;
+  border-color: #540b51;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  cursor: pointer;
+  height: 80px;
+  width: 700px;
+  border-radius: 6px;
+}
+
+.numbers {
+  color: #540b51;
+}
+
+.tt {
+  font-weight: bold;
+  padding: 0px 180px;
+}
+
+.welcome {
+  background-color: #540b51;
+  color: white;
+  padding-top: 20px;
+  
+}
+
+.welcomebutton1 {
+  background-color: #540b51;
+  border: solid 3px;
+  border-color: white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  height: 80px;
+  width: 700px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin: 0px 5px 20px 10px;
+}
+
+.welcomebutton2 {
+  background-color: white;
+  border: none;
+  color: #540b51;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 4px 2px;
+  height: 80px;
+  width: 700px;
+  border-radius: 6px;
+  margin: 0px 5px 20px 10px;
+}
+
+.myFooter {
+  display: flex;
+  flex-flow: column;
+}
+
+.footerThings {
+  display: flex;
+  flex-flow: wrap row;
+  flex-basis: 100%;
+}
+
+.po {
+line-height: 40px;
+
+}
+
+.footerbold {
+margin: 50px;
+}
+
+.blueyel {
+  padding: 0px;
+  margin: 0px;
+  margin: 50px;
+}
+
+.whyslack, .product, .pricing, .company {
+padding: 40px;
+line-height: 3em;
+font-family: 'Times New Roman', Times, serif ;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main {
+  background-color: #f3eae2;
+}
+
+.icons {
+display: flex;
+flex-flow: row;
+}
+
+
+
 /*
-background purple: #540B51
+background purple: C540B51
 background ivory: #F3EAE2
 button blue: #4285F4
 titles black: #191817
